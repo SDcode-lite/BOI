@@ -1,0 +1,15 @@
+#myDIV {
+    width: 70%;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(54, 54, 54);
+    animation: mymove 6s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {box-shadow: 10px 20px 30px rgb(65, 65, 65);}
+  }
+  #myDIV {
+    text-align: center;
+    text-transform: uppercase;
+  }
